@@ -1,9 +1,9 @@
-const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
+const batteryBatches = [2, 7, 5, 4, 6, 6, 1];
 
 // Code your solution here
 
 const totalBatteries = batteryBatches.reduce((accumulator,currentValue) => {
   return accumulator + currentValue;}, 0);
 
-  console.log(totalBatteries);
+console.log(totalBatteries);
 
